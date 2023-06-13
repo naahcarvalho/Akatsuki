@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Akatsuki</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-clouds">
+        <img
+          class="cloud-image"
+          src="./imagens/nuvem.png"
+          alt="Nuvem Akatsuki"
+        />
+      </div>
+      <h1>Akatsuki</h1>
+      <nav>
+        <ul>
+          <li><a href="./index.html">INÍCIO</a></li>
+          <li><a href="./historia.html">HISTÓRIA</a></li>
+          <li><a href="./ninjas.html">NINJAS </a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="video-container">
+        <video id="backgroundVideo" autoplay loop>
+          <source src="./video/rap Akatsuki.mp4" type="video/mp4" />
+        </video>
+        <button class="play-pause-button" onclick="toggleVideo()">
+          <img
+            id="playPauseIcon"
+            src="./imagens/a-pausa.png"
+            alt="Ícone de play e pause"
+          />
+        </button>
+      </section>
+    </main>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
