@@ -48,7 +48,7 @@
     display: flex;
     list-style: none;
     margin-top: 50px;
-    margin-left: 320px;
+    margin-left: 180px;
     cursor: pointer;
   }
   
@@ -67,3 +67,16 @@
     -webkit-text-stroke: 2px white;
   }
   
+  /* Estilizando o footer */
+footer {
+  font-family: "Permanent Marker", cursive;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 50px;
+  text-align: center;
+}
+
+.developer {
+  color: rgb(169, 21, 21);
+  text-decoration: none;
+}
