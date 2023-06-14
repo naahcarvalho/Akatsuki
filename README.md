@@ -14,7 +14,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ### Projeto
 
-É um site sobre a Akatsuki, uma organização criminosa composta por ninjas renegados e é um dos principais antagonistas da série Naruto.
+É um site sobre a Akatsuki, uma organização criminosa composta por ninjas renegados e é um dos principais antagonistas do anime Naruto.
 A Akatsuki é formada por membros poderosos e habilidosos, cada um com suas próprias habilidades únicas. Seu objetivo principal é buscar a obtenção de poderosos artefatos chamados de Bijuu, que são criaturas com imenso poder dentro de si.
 
 - [Visite o projeto online](https://akatsuki-chi.vercel.app/)
