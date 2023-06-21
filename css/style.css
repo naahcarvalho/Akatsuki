@@ -1,14 +1,17 @@
+/* Estilizando a fonte */
 @font-face {
   font-family: "njnaruto.ttf";
   src: url("./njnaruto.ttf") format("truetype");
 }
 
+/* Resetando o CSS */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
+/* Estilizando o body */
 body {
   position: relative;
   font-family: "njnaruto.ttf";
@@ -17,10 +20,10 @@ body {
     auto;
 }
 
+/* Estilizando o header */
 header {
   position: absolute;
-  top: 20px;
-  left: 20px;
+  padding: 20px;
   display: flex;
   align-items: center;
   color: #ffffff;
@@ -29,66 +32,43 @@ header {
 
 .cloud-image {
   width: 12vw;
-  margin-left: 14px;
 }
 
 header h1 {
-  font-size: 70px;
-  margin-top: 22px;
-  color:  rgb(169, 21, 21);
-  -webkit-text-stroke: 2px white;
-}
-
-nav {
-  display: flex;
-  top: 20px;
-  right: 20px;
-  z-index: 1;
-}
-
-nav ul {
-  display: flex;
-  list-style: none;
-  margin-top: 50px;
-  margin-left: 180px;
-  cursor: pointer;
-}
-
-nav ul li {
-  margin-left: 50px;
-  font-size: 25px;
-}
-
-nav ul li a {
-  color: #ffffff;
-  text-decoration: none;
-}
-
-nav a:hover {
+  font-size: 65px;
   color: rgb(169, 21, 21);
   -webkit-text-stroke: 2px white;
 }
 
-main {
-  position: relative;
-  height: 100vh;
+header ul {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  list-style: none;
+  margin-left: 280px;
 }
 
+header li {
+  font-size: 25px;
+  margin-left: 30px;
+}
+
+header a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+header a:hover {
+  color: rgb(169, 21, 21);
+  -webkit-text-stroke: 2px white;
+}
+
+/* Estilizando o main e o vídeo do fundo da página */
 .video-container {
-  position: relative;
-  width: 100%;
   height: 100vh;
 }
 
 .video-container::before {
   content: "";
   position: absolute;
-  top: 0;
-  left: 0;
   width: 100%;
   height: 100%;
   background: linear-gradient(rgba(56, 55, 55, 0.593), rgba(134, 128, 128, 0.485));
@@ -97,13 +77,12 @@ main {
 
 #backgroundVideo {
   position: absolute;
-  top: 0;
-  left: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
+/* Estilizando o botão para voltar ao topo */
 .play-pause-button {
   position: absolute;
   bottom: 20px;

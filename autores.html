@@ -6,16 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Autores</title>
     <link rel="stylesheet" href="./css/autores.css" />
+    <script
+      src="https://kit.fontawesome.com/7af24cf87e.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <header>
-      <div class="header-clouds">
+      <figure class="header-clouds">
         <img
           class="cloud-image"
           src="./imagens/nuvem.png"
           alt="Nuvem Akatsuki"
         />
-      </div>
+      </figure>
       <h1>Akatsuki</h1>
       <nav>
         <ul>
@@ -28,7 +32,7 @@
     </header>
 
     <main>
-      <div class="akatsuki-background"></div>
+      <section class="akatsuki-background"></section>
       <section>
         <h1>Autores dos vídeos e áudios utilizados no site</h1>
 
@@ -62,11 +66,11 @@
         </p>
       </section>
 
+      <h2>
+        Links dos canais: É só clicar nas imagens para ser direcionado para o
+        canal do YouTube!!
+      </h2>
       <section class="paginaInicio">
-        <h2>
-          Links dos canais: É só clicar nas imagens para ser direcionado para o
-          canal do YouTube!!
-        </h2>
         <h3>Página Início</h3>
         <h4>
           Rap da Akatsuki
@@ -74,7 +78,7 @@
             class="youtubeAkatsuki"
             href="https://youtu.be/-oYMo8k22Vw"
             target="_blank"
-            ><img src="./imagens/iconakatsuki.png" alt="Akatsuki"
+            ><img src="./imagens/iconakatsukii.png" alt="Akatsuki"
           /></a>
         </h4>
         <p>
@@ -89,10 +93,7 @@
 
         <h4>
           Pain
-          <a
-            class="youtubePain"
-            href="https://youtu.be/KN4Tnp6XcGk"
-            target="_blank"
+          <a href="https://youtu.be/KN4Tnp6XcGk" target="_blank"
             ><img src="./imagens/iconpain.png" alt="Personagem Pain"
           /></a>
         </h4>
@@ -103,10 +104,7 @@
 
         <h4>
           Konan
-          <a
-            class="youtubeKonan"
-            href="https://youtu.be/HD3JOAAK-DE"
-            target="_blank"
+          <a href="https://youtu.be/HD3JOAAK-DE" target="_blank"
             ><img src="./imagens/iconkonan.png" alt="Personagem Konan"
           /></a>
         </h4>
@@ -126,10 +124,7 @@
 
         <h4>
           Hidan
-          <a
-            class="youtubeHidan"
-            href="https://youtu.be/8InAw9TnINQ"
-            target="_blank"
+          <a href="https://youtu.be/8InAw9TnINQ" target="_blank"
             ><img src="./imagens/iconhidan.png" alt="Personagem Hidan"
           /></a>
         </h4>
@@ -140,10 +135,7 @@
 
         <h4>
           Itachi
-          <a
-            class="youtubeItachi"
-            href="https://youtu.be/zs_zpMnwNMs"
-            target="_blank"
+          <a href="https://youtu.be/zs_zpMnwNMs" target="_blank"
             ><img src="./imagens/iconitachi.png" alt="Personagem Itachi"
           /></a>
         </h4>
@@ -154,7 +146,9 @@
 
         <h4>
           Kakuzu
-          <a href="https://youtu.be/wJQJTWbrEdc" target="_blank"></a>
+          <a class="youtubeKakuzu" href="https://youtu.be/wJQJTWbrEdc" target="_blank"
+            ><img src="./imagens/kakuzuu.png" alt="Kakuzu" />
+          </a>
         </h4>
         <p>
           O áudio utilizado é o "Rap do Kakuzu (Naruto) - ACHOU QUE EU TINHA
@@ -163,10 +157,7 @@
 
         <h4>
           Tobi
-          <a
-            class="youtubeTobi"
-            href="https://youtu.be/1mwTKq_6tCo"
-            target="_blank"
+          <a href="https://youtu.be/1mwTKq_6tCo" target="_blank"
             ><img src="./imagens/icontobi.png" alt="Personagem Tobi"
           /></a>
         </h4>
@@ -177,10 +168,7 @@
 
         <h4>
           Sasori
-          <a
-            class="youtubeSasori"
-            href="https://youtu.be/_fT_3oE1hRk"
-            target="_blank"
+          <a href="https://youtu.be/_fT_3oE1hRk" target="_blank"
             ><img src="./imagens/iconsasori.png" alt="Personagem Sasori"
           /></a>
         </h4>
@@ -191,10 +179,7 @@
 
         <h4>
           Orochimaru
-          <a
-            class="youtubeOrochimaru"
-            href="https://youtu.be/kKoH-dKLIjU"
-            target="_blank"
+          <a href="https://youtu.be/kKoH-dKLIjU" target="_blank"
             ><img src="./imagens/iconorochimaru.png" alt=""
           /></a>
         </h4>
@@ -219,7 +204,9 @@
 
         <h4>
           Kisame
-          <a href="https://youtu.be/6rFsxilCbIc" target="_blank"></a>
+          <a class="youtubeKisame" href="https://youtu.be/6rFsxilCbIc" target="_blank">
+            <img src="./imagens/kisamee.png" alt="Kisame">
+          </a>
         </h4>
         <p>
           O áudio utilizado é o "Rap do Kisame (Naruto) - UMA BIJUU SEM CAUDA |
@@ -229,6 +216,14 @@
     </main>
 
     <footer>
+      <button
+        onclick="topFunction()"
+        id="voltarTopo"
+        title="voltar para o topo"
+      >
+        <a><i class="fa-solid fa-circle-chevron-up"></i></a>
+      </button>
+
       <p>
         &copy; 2023 Todos os direitos reservados. Site desenvolvido por
         <a
@@ -239,5 +234,6 @@
         >
       </p>
     </footer>
+    <script src="./js/scroll.js"></script>
   </body>
 </html>

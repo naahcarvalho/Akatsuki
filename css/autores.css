@@ -1,3 +1,4 @@
+/* Estilizando a fonte */
 @font-face {
   font-family: "njnaruto.ttf";
   src: url("./njnaruto.ttf") format("truetype");
@@ -14,6 +15,7 @@
 
 /* Estilizando o body */
 body {
+  font-family: "njnaruto.ttf";
   position: relative;
   cursor: url("data:image/x-icon;base64,AAACAAEAICAAAAAAAACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAwAAAAUAAAAHAAAACAAAAAcAAAAGAAAABQAAAAUAAAAFAAAABwAAAAgAAAAHAAAABgAAAAQAAAADAAAAAgAAAAEAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAEAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAQAAAAFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAMAAAAGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADo6Oj/6Ojo/+jo6P/o6Oj/AAAAAAAAAAAAAAAA6Ojo/+jo6P/o6Oj/6Ojo/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA6Ojo/wcH5v8HB+b/Bwfm/wcH5v/o6Oj/AAAAAOjo6P8HB+b/Bwfm/wcH5v8HB+b/6Ojo/+jo6P8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOjo6P8HB+b/Bwfm/wcH5v8HB+b/Bwfm/wcH5v/o6Oj/Bwfm/wcH5v8HB+b/Bwfm/wcH5v8HB+b/Bwfm/+jo6P8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA6Ojo/+jo6P/o6Oj/6Ojo/wcH5v8HB+b/Bwfm/wcH5v8HB+b/Bwfm/wcH5v8HB+b/Bwfm/wcH5v8HB+b/Bwfm/wcH5v/o6Oj/6Ojo/+jo6P/o6Oj/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA6Ojo/+jo6P8HB+b/Bwfm/wcH5v/o6Oj/Bwfm/wcH5v8HB+b/6Ojo/wcH5v8HB+b/Bwfm/wcH5v8HB+b/Bwfm/wcH5v8HB+b/6Ojo/wcH5v8HB+b/Bwfm/wcH5v/o6Oj/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOjo6P8HB+b/Bwfm/wcH5v8HB+b/Bwfm/wcH5v/o6Oj/6Ojo/+jo6P8HB+b/Bwfm/wcH5v8HB+b/Bwfm/wcH5v8HB+b/Bwfm/wcH5v/o6Oj/Bwfm/wcH5v8HB+b/Bwfm/wcH5v/o6Oj/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA6Ojo/wcH5v8HB+b/Bwfm/wcH5v8HB+b/Bwfm/wcH5v8HB+b/Bwfm/wcH5v8HB+b/Bwfm/wcH5v8HB+b/Bwfm/wcH5v8HB+b/Bwfm/+jo6P8HB+b/Bwfm/wcH5v8HB+b/Bwfm/+jo6P8AAAAAAAAAAAAAAAAAAAAAAAAAAOjo6P8HB+b/Bwfm/wcH5v8HB+b/Bwfm/wcH5v8HB+b/Bwfm/wcH5v8HB+b/Bwfm/wcH5v8HB+b/Bwfm/wcH5v8HB+b/Bwfm/wcH5v8HB+b/Bwfm/+jo6P/o6Oj/Bwfm/wcH5v8HB+b/Bwfm/+jo6P8AAAAAAAAAAAAAAAAAAAAA6Ojo/wcH5v/o6Oj/6Ojo/+jo6P8HB+b/Bwfm/wcH5v8HB+b/Bwfm/wcH5v8HB+b/Bwfm/wcH5v8HB+b/Bwfm/wcH5v8HB+b/Bwfm/wcH5v8HB+b/Bwfm/wcH5v8HB+b/Bwfm/wcH5v8HB+b/6Ojo/wAAAAAAAAAAAAAAAAAAAADo6Oj/6Ojo/wAAAAAAAAAAAAAAC+jo6P8HB+b/Bwfm/wcH5v8HB+b/Bwfm/wcH5v8HB+b/Bwfm/wcH5v8HB+b/Bwfm/wcH5v8HB+b/Bwfm/wcH5v8HB+b/Bwfm/wcH5v8HB+b/Bwfm/wcH5v/o6Oj/AAAAAAAAAAAAAAAAAAAAAOjo6P8AAAAJAAAACQAAAAkAAAAAAAAAAOjo6P/o6Oj/6Ojo/wcH5v8HB+b/Bwfm/wcH5v8HB+b/Bwfm/wcH5v/o6Oj/6Ojo/+jo6P8HB+b/Bwfm/wcH5v8HB+b/Bwfm/wcH5v8HB+b/6Ojo/+jo6P8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADo6Oj/Bwfm/wcH5v8HB+b/Bwfm/wcH5v8HB+b/6Ojo/wcH5v8HB+b/Bwfm/+jo6P8HB+b/Bwfm/wcH5v8HB+b/Bwfm/wcH5v/o6Oj/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOjo6P8HB+b/Bwfm/wcH5v8HB+b/Bwfm/+jo6P8HB+b/Bwfm/wcH5v8HB+b/6Ojo/wcH5v8HB+b/Bwfm/wcH5v8HB+b/6Ojo/+jo6P8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOjo6P8HB+b/Bwfm/wcH5v8HB+b/6Ojo/wcH5v8HB+b/Bwfm/wcH5v8HB+b/Bwfm/wcH5v8HB+b/6Ojo/+jo6P8AAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOjo6P/o6Oj/6Ojo/+jo6P/o6Oj/Bwfm/wcH5v8HB+b/Bwfm/wcH5v8HB+b/Bwfm/+jo6P8AAAAAAAAAAAAAAAAAAAAGAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAAAAwAAAAPo6Oj/Bwfm/wcH5v8HB+b/Bwfm/wcH5v/o6Oj/6Ojo/wAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADo6Oj/6Ojo/+jo6P/o6Oj/6Ojo/wAAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAAMAAAADAAAAAwAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////////////////////////////////////////////4cP//8CA//+AAH/8AAAf8AAAD+AAAAfgAAAHwAAAA8AAAAPOAAAD3wAAA//AAAf/wAAH/+AAH//wAH///4B////B//////////////////////////////////////8="),
     auto;
@@ -22,58 +24,44 @@ body {
 /* Estilizando o header */
 header {
   background-color: #000000;
-  font-family: "njnaruto.ttf";
-  top: 20px;
-  left: 20px;
   display: flex;
   align-items: center;
   color: #ffffff;
-  z-index: 1;
+  padding: 20px;
 }
 
 .cloud-image {
   width: 12vw;
-  margin-left: 30px;
 }
 
 header h1 {
-  font-size: 70px;
-  margin-top: 48px;
-  margin-bottom: 20px;
+  font-size: 65px;
   color: rgb(169, 21, 21);
   -webkit-text-stroke: 2px white;
 }
 
-header nav {
-  display: flex;
-  top: 20px;
-  right: 20px;
-  z-index: 1;
-}
-
-header nav ul {
+header ul {
   display: flex;
   list-style: none;
-  margin-top: 50px;
-  margin-left: 180px;
-  cursor: pointer;
+  margin-left: 280px;
 }
 
-header nav ul li {
-  margin-left: 50px;
+header li {
   font-size: 25px;
+  margin-left: 30px;
 }
 
-header nav ul li a {
+header a {
   color: #ffffff;
   text-decoration: none;
 }
 
-header nav a:hover {
+header a:hover {
   color: rgb(169, 21, 21);
   -webkit-text-stroke: 2px white;
 }
 
+/* Estilizando a imagem do fundo da página */
 .akatsuki-background {
   position: fixed;
   top: 0;
@@ -81,7 +69,7 @@ header nav a:hover {
   width: 100%;
   height: 100%;
   z-index: -1;
-  background-image: url(https://wallpaperset.com/w/full/c/a/d/113980.jpg); 
+  background-image: url(https://wallpaperset.com/w/full/c/a/d/113980.jpg);
   background-size: cover;
   box-shadow: inset 0 0 0 2000px rgba(93, 92, 92, 0.5);
 }
@@ -102,11 +90,10 @@ h2 {
 }
 
 main p {
-  display: flex;
   text-align: justify;
   color: #ffffff;
   font-size: 18px;
-  margin: 0 200px 0 200px;
+  margin: 0 15%;
   margin-top: 34px;
   letter-spacing: 1px;
 }
@@ -120,7 +107,7 @@ main h3 {
   color: #ffffff;
   background-color: rgb(169, 21, 21);
   font-size: 20px;
-  margin-left: 200px;
+  margin-left: 15%;
   margin-top: 60px;
   border: 2px solid rgb(169, 21, 21);
   border-radius: 20px;
@@ -129,11 +116,12 @@ main h3 {
 }
 
 main h4 {
-  margin-left: 200px;
+  margin-left: 15%;
   margin-top: 40px;
   font-family: "njnaruto.ttf";
   font-size: 18px;
   color: #000000;
+  text-shadow: 2px 2px 4px rgba(140, 109, 109, 0.5);
 }
 
 .paginaInicio p {
@@ -146,111 +134,78 @@ main h4 {
   margin-bottom: 70px;
 }
 
-main a img {
+main img {
   background-size: cover;
   margin-left: 30px;
-  display: inline-block;
   vertical-align: middle;
+  width: 8vw;
+  height: 20vh;
+  transition: 0.5s;
 }
 
-/* Estilizando os icones dos links de cada personagem */
+main img:hover {
+  width: 10vw;
+  height: 24vh;
+}
+
 .youtubeAkatsuki img {
-  width: 200px;
-  height: 110px;
+  width: 14vw;
+  height: 34vh;
 }
 
 .youtubeAkatsuki img:hover {
-  width: 250px;
-  height: 145px;
-  transition: 0.5s;
-}
-
-.youtubePain img {
-  width: 70px;
-  height: 80px;
-}
-
-.youtubePain img:hover {
-  width: 85px;
-  height: 95px;
-  transition: 0.5s;
-}
-
-.youtubeKonan img {
-  width: 60px;
-  height: 80px;
-}
-
-.youtubeKonan img:hover {
-  width: 70px;
-  height: 100px;
-  transition: 0.5s;
-}
-
-.youtubeHidan img {
-  width: 60px;
-  height: 80px;
-}
-
-.youtubeHidan img:hover {
-  width: 80px;
-  height: 100px;
-  transition: 0.5s;
-}
-
-.youtubeItachi img {
-  width: 70px;
-  height: 80px;
-}
-
-.youtubeItachi img:hover {
-  width: 90px;
-  height: 100px;
-  transition: 0.5s;
-}
-
-.youtubeTobi img {
-  width: 70px;
-  height: 80px;
-}
-
-.youtubeTobi img:hover {
-  width: 90px;
-  height: 100px;
-  transition: 0.5s;
-}
-
-.youtubeSasori img {
-  width: 70px;
-  height: 80px;
-}
-
-.youtubeSasori img:hover {
-  width: 90px;
-  height: 100px;
-  transition: 0.5s;
-}
-
-.youtubeOrochimaru img {
-  width: 60px;
-  height: 80px;
-}
-
-.youtubeOrochimaru img:hover {
-  width: 70px;
-  height: 100px;
-  transition: 0.5s;
+  width: 18vw;
+  height: 38vh;
+  transition: 0.5s ease-in-out;
 }
 
 .youtubeDeidara img {
-  width: 95px;
-  height: 95px;
+  width: 12vw;
+  height: 24vh;
+  transition: 0.5s;
 }
 
 .youtubeDeidara img:hover {
-  width: 110px;
-  height: 110px;
-  transition: 0.5s;
+  width: 14vw;
+  height: 26vh;
+}
+
+.youtubeKakuzu img{
+width: 6vw;
+height: 18vh;
+}
+
+.youtubeKakuzu img:hover{
+  width: 8vw;
+  height: 22vh;
+  }
+
+  .youtubeKisame img {
+    width: 30vw;
+    height: 18vh;
+    border: #000000 solid;
+  }
+
+/* Estilizando o botão para voltar ao topo da página */
+#voltarTopo {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 999;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: rgb(169, 21, 21);
+  color: #000000;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 50%;
+}
+
+#voltarTopo:hover {
+  width: 60px;
+  height: 60px;
 }
 
 /* Estilizando o footer */
@@ -262,6 +217,7 @@ footer {
   text-align: center;
 }
 
+/* Estilizando o nome no footer, colocando link do github */
 .developer {
   color: rgb(169, 21, 21);
   text-decoration: none;
