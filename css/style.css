@@ -23,11 +23,19 @@ body {
 /* Estilizando o header */
 header {
   position: absolute;
-  padding: 20px;
   display: flex;
   align-items: center;
+  width: 98.7vw;
+  height: 25vh;
+  justify-content: space-between;
   color: #ffffff;
   z-index: 2;
+}
+
+header section {
+  display: flex;
+  align-items: center;
+  width: 38vw;
 }
 
 .cloud-image {
@@ -35,7 +43,7 @@ header {
 }
 
 header h1 {
-  font-size: 65px;
+  font-size: 62px;
   color: rgb(169, 21, 21);
   -webkit-text-stroke: 2px white;
 }
@@ -43,12 +51,12 @@ header h1 {
 header ul {
   display: flex;
   list-style: none;
-  margin-left: 280px;
+  width: 44vw;
+  justify-content: space-evenly;
 }
 
 header li {
   font-size: 25px;
-  margin-left: 30px;
 }
 
 header a {
@@ -71,7 +79,10 @@ header a:hover {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: linear-gradient(rgba(56, 55, 55, 0.593), rgba(134, 128, 128, 0.485));
+  background: linear-gradient(
+    rgba(56, 55, 55, 0.593),
+    rgba(134, 128, 128, 0.485)
+  );
   z-index: 1;
 }
 
@@ -97,8 +108,8 @@ header a:hover {
   background-color: rgb(169, 21, 21);
   border-radius: 25px;
   border: 2px solid rgb(169, 21, 21);
-  width: 50px;
-  height: 50px;
+  width: 4vw;
+  height: 8vh;
 }
 
 .play-pause-button:focus {

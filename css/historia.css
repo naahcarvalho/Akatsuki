@@ -24,7 +24,15 @@ header {
   display: flex;
   align-items: center;
   color: #ffffff;
-  padding: 20px;
+  justify-content: space-between;
+  height: 25vh;
+  width: 98.7vw;
+}
+
+header section {
+  display: flex;
+  align-items: center;
+  width: 38vw;
 }
 
 .cloud-image {
@@ -32,7 +40,7 @@ header {
 }
 
 header h1 {
-  font-size: 65px;
+  font-size: 62px;
   color: rgb(169, 21, 21);
   -webkit-text-stroke: 2px white;
 }
@@ -40,12 +48,12 @@ header h1 {
 header ul {
   display: flex;
   list-style: none;
-  margin-left: 280px;
+  width: 44vw;
+  justify-content: space-evenly;
 }
 
 header li {
   font-size: 25px;
-  margin-left: 30px;
 }
 
 header a {
@@ -62,56 +70,94 @@ header a:hover {
 main {
   font-family: "Permanent Marker", cursive;
   background-color: #141212;
-  padding-bottom: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 1080vh;
 }
 
 main h1 {
+  display: flex;
+  align-items: end;
   text-align: center;
-  padding-top: 60px;
   text-transform: uppercase;
   color: rgb(169, 21, 21);
   text-shadow: 2px 2px 4px rgba(255, 0, 0, 0.56);
+  height: 18vh;
+}
+
+main h2 {
+  text-align: center;
+  font-size: 28px;
 }
 
 main p {
   text-align: justify;
-  padding-top: 20px;
+  font-size: 17px;
 }
 
 /* Estilizando as sections */
 .content-section {
   border-radius: 110px;
+  height: 56vh;
+  width: 80vw;
   display: flex;
   align-items: center;
+}
+
+/* Estilizando as caixas (content-section) com imagem, título e parágrafo do grupo 1 */
+.grupoUm {
+  width: 38vw;
+}
+
+.contentGrupoUm {
+  height: 40vh;
+  width: 40vw;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
   justify-content: center;
-  margin: 70px 130px;
+}
+.contentGrupoUm p {
+  width: 34vw;
+}
+
+.contentGrupoUm h2 {
+  height: 9vh;
+  width: 34vw;
+}
+
+/* Estilizando as caixas (content-section) com imagem, título e parágrafo do grupo 2 */
+.contentGrupoDois {
+  width: 50vw;
   height: 55vh;
-  width: 80vw;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.content-section .content {
-  flex: 1;
-  padding: 30px;
+.contentGrupoDois p {
+  width: 40vw;
+  height: 20vh;
 }
 
-.content-section img {
-  margin-left: 70px;
-}
-
-.content-section h2 {
-  margin-bottom: 10px;
+.contentGrupoDois h2 {
   text-align: center;
+  height: 9vh;
+  width: 40vw;
 }
-.content-section p {
-  text-align: justify;
-  margin: 10px 40px;
+
+figure {
+  width: 32vw;
+  display: flex;
+  justify-content: center;
 }
 
 /* Estilizando as sections individualmente */
 .fundacao {
   border: 8px double rgb(20, 26, 144);
   background-color: #1f90a1;
-  box-shadow: 0px 0px 20px rgba(11, 5, 196, 0.8);
 }
 
 .fundacao img {
@@ -126,7 +172,6 @@ main p {
 .objetivos {
   border: 8px double rgb(201, 74, 11);
   background-color: #c77c3f;
-  box-shadow: 0px 0px 20px rgba(229, 83, 4, 0.878);
 }
 
 .objetivos img {
@@ -141,7 +186,6 @@ main p {
 .morteYahiko {
   border: 8px double rgb(231, 12, 12);
   background-color: #c74141;
-  box-shadow: 0px 0px 20px rgba(136, 54, 54, 0.8);
 }
 
 .morteYahiko img {
@@ -156,7 +200,6 @@ main p {
 .visaoPain {
   border: 8px double rgba(5, 233, 146, 0.774);
   background-color: #56a981;
-  box-shadow: 0px 0px 20px rgba(71, 170, 130, 0.878);;
 }
 
 .visaoPain img {
@@ -171,11 +214,14 @@ main p {
 .recrutamento {
   border: 8px double rgb(121, 69, 9);
   background-color: #412f1e;
-  box-shadow:0px 0px 20px rgb(78, 57, 37); ;
+}
+
+.recrutamento figure {
+  width: 40vw;
 }
 
 .recrutamento img {
-  width: 36vw;
+  width: 35vw;
 }
 
 .recrutamento h2 {
@@ -183,14 +229,9 @@ main p {
   text-shadow: 2px 2px 4px rgb(78, 57, 37);
 }
 
-.recrutamento p {
-  margin: 0;
-}
-
 .jinchuurikis {
   border: 8px double rgb(244, 221, 7);
   background-color: #d9b84e;
-  box-shadow: 0px 0px 20px rgba(163, 138, 29, 0.878);
 }
 
 .jinchuurikis img {
@@ -205,7 +246,6 @@ main p {
 .conflitos {
   border: 8px double rgb(236, 7, 129);
   background-color: #8b406d;
-  box-shadow: 0px 0px 20px rgba(106, 31, 69, 0.878)
 }
 
 .conflitos img {
@@ -220,7 +260,6 @@ main p {
 .quedaAkatsuki {
   border: 8px double rgb(117, 84, 6);
   background-color: #b07a3e;
-  box-shadow: 0px 0px 20px rgba(116, 89, 31, 0.878);
 }
 
 .quedaAkatsuki img {
@@ -235,26 +274,37 @@ main p {
 .redencaoMembros {
   border: 8px double rgb(218, 209, 204);
   background-color: #7d746d;
-  box-shadow: 0px 0px 20px rgba(149, 141, 137, 0.878);
 }
 
+.contentRedencao {
+  width: 70vw;
+}
 .redencaoMembros img {
   width: 24vw;
+}
+
+.redencaoMembros figure {
+  width: 55vw;
 }
 
 .redencaoMembros h2 {
   color: rgb(218, 209, 204);
   text-shadow: 2px 2px 4px rgba(149, 141, 137, 0.878);
+  height: 9vh;
+  width: 38vw;
+}
+
+.redencaoMembros p {
+  width: 38vw;
 }
 
 .identidadeTobi {
   border: 8px double rgb(4, 147, 249);
   background-color: #5064b5;
-  box-shadow: 0px 0px 20px rgba(19, 82, 169, 0.878);
 }
 
 .identidadeTobi img {
-  width: 35vw;
+  width: 34vw;
 }
 
 .identidadeTobi h2 {
@@ -265,7 +315,6 @@ main p {
 .confrontoFinal {
   border: 8px double rgb(183, 106, 168);
   background-color: #52384d;
-  box-shadow: 0px 0px 20px rgba(173, 42, 153, 0.878);
 }
 
 .confrontoFinal img {
@@ -278,14 +327,9 @@ main p {
   text-shadow: 2px 2px 4px rgba(173, 42, 153, 0.878);
 }
 
-.confrontoFinal p {
-  margin: 15px 0;
-}
-
 .revelacoesTobi {
   border: 8px double rgb(5, 150, 61);
   background-color: #2a5940;
-  box-shadow: 0px 0px 20px rgba(11, 90, 39, 0.878);
 }
 
 .revelacoesTobi img {
@@ -295,16 +339,25 @@ main p {
 .revelacoesTobi h2 {
   color: rgb(5, 150, 61);
   text-shadow: 2px 2px 4px rgba(12, 79, 35, 0.878);
+  width: 48vw;
+  height: 9vh;
 }
 
-.revelacoesTobi p {
-  margin: 0;
+.revelacoesTobiTexto p {
+  width: 48vw;
+}
+
+.contentTobi {
+  width: 60vw;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .planoDaLua {
   border: 8px double rgb(223, 15, 43);
   background-color: #842832;
-  box-shadow: 0px 0px 20px rgba(45, 4, 7, 0.878);
 }
 
 .planoDaLua img {
@@ -320,11 +373,10 @@ main p {
 .redencaoObito {
   border: 8px double rgb(255, 247, 12);
   background-color: #d6c441;
-  box-shadow: 0px 0px 20px rgba(162, 157, 82, 0.878);
 }
 
 .redencaoObito img {
-  width: 15vw;
+  width: 30vw;
 }
 
 .redencaoObito h2 {
@@ -335,7 +387,6 @@ main p {
 .legado {
   border: 8px double rgb(66, 17, 101);
   background-color: #8857cc;
-  box-shadow: 0px 0px 20px rgba(83, 18, 111, 0.878);
 }
 
 .legado img {
@@ -350,7 +401,6 @@ main p {
 .conclusao {
   border: 8px double rgb(244, 123, 3);
   background-color: #ca6a36;
-  box-shadow: 0px 0px 20px  rgba(138, 74, 18, 0.878);
 }
 
 .conclusao img {
@@ -361,10 +411,6 @@ main p {
 .conclusao h2 {
   color: rgb(244, 123, 3);
   text-shadow: 2px 2px 4px rgba(87, 45, 9, 0.878);
-}
-
-.conclusao p {
-  margin: 0;
 }
 
 /* Estilizando o botão para voltar ao topo da página */
@@ -385,8 +431,8 @@ main p {
 }
 
 #voltarTopo:hover {
-  width: 60px;
-  height: 60px;
+  width: 5vw;
+  height: 11vh;
 }
 
 /* Estilizando o footer */
@@ -394,8 +440,10 @@ footer {
   font-family: "Permanent Marker", cursive;
   background-color: #000000;
   color: #ffffff;
-  padding: 50px;
-  text-align: center;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Estilizando o nome no footer, colocando link do github */

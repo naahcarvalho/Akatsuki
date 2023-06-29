@@ -27,7 +27,15 @@ header {
   display: flex;
   align-items: center;
   color: #ffffff;
-  padding: 20px;
+  justify-content: space-between;
+  height: 25vh;
+  width: 98.7vw;
+}
+
+header section {
+  display: flex;
+  align-items: center;
+  width: 38vw;
 }
 
 .cloud-image {
@@ -35,7 +43,7 @@ header {
 }
 
 header h1 {
-  font-size: 65px;
+  font-size: 62px;
   color: rgb(169, 21, 21);
   -webkit-text-stroke: 2px white;
 }
@@ -43,12 +51,12 @@ header h1 {
 header ul {
   display: flex;
   list-style: none;
-  margin-left: 280px;
+  width: 44vw;
+  justify-content: space-evenly;
 }
 
 header li {
   font-size: 25px;
-  margin-left: 30px;
 }
 
 header a {
@@ -66,8 +74,8 @@ header a:hover {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   z-index: -1;
   background-image: url(https://wallpaperset.com/w/full/c/a/d/113980.jpg);
   background-size: cover;
@@ -77,7 +85,18 @@ header a:hover {
 /* Estilizando o main */
 main {
   font-family: "Permanent Marker", cursive;
-  padding-top: 70px;
+  height: 720vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.textoPrincipal {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 100vh;
 }
 
 main h1,
@@ -87,65 +106,100 @@ h2 {
   color: rgb(169, 21, 21);
   text-shadow: 2px 2px 4px rgba(243, 71, 71, 0.615);
   -webkit-text-stroke: 0.3px white;
+  width: 66vw;
 }
 
 main p {
   text-align: justify;
   color: #ffffff;
   font-size: 18px;
-  margin: 0 15%;
-  margin-top: 34px;
+  width: 66vw;
+  height: 16vh;
   letter-spacing: 1px;
 }
 
 main h2 {
   font-size: 22px;
-  margin-top: 80px;
+  width: 98.7vw;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 main h3 {
   color: #ffffff;
   background-color: rgb(169, 21, 21);
   font-size: 20px;
-  margin-left: 15%;
-  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 12vw;
+  height: 8vh;
   border: 2px solid rgb(169, 21, 21);
   border-radius: 20px;
-  padding: 12px;
-  width: 12vw;
 }
 
 main h4 {
-  margin-left: 15%;
-  margin-top: 40px;
   font-family: "njnaruto.ttf";
   font-size: 18px;
   color: #000000;
   text-shadow: 2px 2px 4px rgba(140, 109, 109, 0.5);
 }
 
-.paginaInicio p {
-  font-size: 16px;
+.paginaInicioTexto {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 75vh;
 }
 
-.paginaNinjas p {
-  font-size: 16px;
-  margin-top: 10px;
-  margin-bottom: 70px;
+.paginaInicioTexto p {
+  height: 22vh;
+}
+
+.paginaInicio {
+  height: 40vh;
+  width: 29vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.paginaInicioTexto1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 500vh;
+}
+
+.paginaNinjas {
+  display: flex;
+  height: 23vh;
+  width: 14vw;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.espacamentoImagem1 {
+  width: 20vw;
+}
+
+.espacamentoImagem2 {
+  width: 16vw;
+}
+
+.espacamentoImagem3 {
+  width: 18vw;
 }
 
 main img {
-  background-size: cover;
-  margin-left: 30px;
-  vertical-align: middle;
   width: 8vw;
   height: 20vh;
-  transition: 0.5s;
 }
 
 main img:hover {
-  width: 10vw;
-  height: 24vh;
+  transform: scale(1.2);
 }
 
 .youtubeAkatsuki img {
@@ -153,38 +207,20 @@ main img:hover {
   height: 34vh;
 }
 
-.youtubeAkatsuki img:hover {
-  width: 18vw;
-  height: 38vh;
-  transition: 0.5s ease-in-out;
-}
-
 .youtubeDeidara img {
   width: 12vw;
   height: 24vh;
-  transition: 0.5s;
 }
 
-.youtubeDeidara img:hover {
-  width: 14vw;
-  height: 26vh;
+.youtubeKakuzu img {
+  width: 6vw;
+  height: 18vh;
 }
 
-.youtubeKakuzu img{
-width: 6vw;
-height: 18vh;
-}
-
-.youtubeKakuzu img:hover{
-  width: 8vw;
+.youtubeKisame img {
+  width: 10vw;
   height: 22vh;
-  }
-
-  .youtubeKisame img {
-    width: 30vw;
-    height: 18vh;
-    border: #000000 solid;
-  }
+}
 
 /* Estilizando o botão para voltar ao topo da página */
 #voltarTopo {
@@ -204,8 +240,8 @@ height: 18vh;
 }
 
 #voltarTopo:hover {
-  width: 60px;
-  height: 60px;
+  width: 5vw;
+  height: 11vh;
 }
 
 /* Estilizando o footer */
@@ -213,8 +249,10 @@ footer {
   font-family: "Permanent Marker", cursive;
   background-color: #000000;
   color: #ffffff;
-  padding: 50px;
-  text-align: center;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Estilizando o nome no footer, colocando link do github */
