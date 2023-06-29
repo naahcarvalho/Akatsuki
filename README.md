@@ -1,7 +1,7 @@
 <h1 align="center">Akatsuki</h1>
 
 <p align="center">
-  <img alt="Integrantes da Akatsuki" src="https://img.quizur.com/f/img61bbe70b701fa3.35730871.jpeg?lastEdited=1639704337" width="100%">
+  <img alt="Integrantes da Akatsuki" src="./imagens/iconakatsukii.png" width="50%">
 </p>
 
 ### Tecnologias
